@@ -8,6 +8,7 @@ require('dotenv').config({ path: resolve(__dirname, 'e2e-variables.env') })
 const app = require('../app')
 
 
+
 const {
   CONTENTFUL_SPACE_ID, CONTENTFUL_DELIVERY_TOKEN, CONTENTFUL_PREVIEW_TOKEN,
   CONTENTFUL_QA_SPACE_ID, CONTENTFUL_QA_DELIVERY_TOKEN, CONTENTFUL_QA_PREVIEW_TOKEN,
